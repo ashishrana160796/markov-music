@@ -4,7 +4,7 @@ import mido
 
 mid = mido.MidiFile("midi/river_flows.mid")
 
-print mid
+print (mid)
 
 for i, track in enumerate(mid.tracks):
     print('Track {}: {}'.format(i, track.name))
